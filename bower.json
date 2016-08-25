@@ -1,0 +1,11 @@
+{
+  "name": "build",
+  "dependencies": {
+    "dojo": "1.10.0",
+    "dijit": "1.10.0"
+  },
+  "devDependencies": {
+    "util": "dojo-util#1.10.0"
+  },
+  "private": true
+}
