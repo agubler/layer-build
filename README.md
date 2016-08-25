@@ -5,7 +5,7 @@ A sample project to demonstrate the scenario that can cause the `i18n.getLocaliz
 ```bash
 bower intall
 npm install
-./build
+./build.sh
 ./node_modules/http-server/bin/http-server dist -p 8080
 ```
 
