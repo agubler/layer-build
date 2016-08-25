@@ -112,7 +112,7 @@ var profile = {
 		},
 
 		"app/a": {
-			exclude : ["dojo/dojo"]
+			exclude : ["dojo/dojo", "app/boot"]
 		}
 	},
 
