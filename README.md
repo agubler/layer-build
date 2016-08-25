@@ -6,7 +6,7 @@ A sample project to demonstrate the scenario that can cause the `i18n.getLocaliz
 bower intall
 npm install
 ./build
-./node_modules/bin/http-server dist -p 8080
+./node_modules/http-server/bin/http-server dist -p 8080
 ```
 
 open [http://localhost:8080](http://localhost:8080)
