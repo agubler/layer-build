@@ -1,6 +1,4 @@
-define(['dijit/form/NumberTextBox'], function (NumberTextBox) {
+define(['app/foo'], function () {
 	console.log('booted');
-	var textbox1 = new NumberTextBox();
 	require([ 'app/a' ]);
-	var textbox2 = new NumberTextBox();
 });

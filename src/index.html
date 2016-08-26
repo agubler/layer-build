@@ -19,7 +19,9 @@
 					'dojo'
 				],
 				callback: function() {
-					require(['app/boot']);
+					require(['dojo/i18n'], function() {
+						require(['app/boot']);
+					});
 				},
 				locale: 'de-de',
 				selectorEngine: 'lite',

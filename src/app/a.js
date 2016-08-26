@@ -1,3 +1,4 @@
-define(['dijit/form/NumberTextBox'], function(NumberTextBox) {
-	var textbox = new NumberTextBox();
+define(['app/foo'], function(NumberTextBox) {
+	console.log('a executed');
+	new NumberTextBox();
 });
